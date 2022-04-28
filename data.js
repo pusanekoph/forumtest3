@@ -36,25 +36,6 @@ var defaultThreads = [
                 content: "Hey to you too"
             }
         ]
-    },
-    {
-        id: 3,
-        title: "Thread 3",
-        author: "Admin",
-        date: Date.now(),
-        content: "Thread content 3",
-        comments: [
-            {
-                author: "Jack",
-                date: Date.now(),
-                content: "Hey there"
-            },
-            {
-                author: "Arthur",
-                date: Date.now(),
-                content: "Hey to you too"
-            }
-        ]
     }
 ]
 
