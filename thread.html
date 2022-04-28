@@ -15,7 +15,7 @@
     </div>
     <script src="data.js"></script>
     <script>
-        var id = window.location.search.slice(2);
+        var id = window.location.search.slice(1);
         var thread = threads.find(t => t.id == id);
         var header = document.querySelector('.header');
         var headerHtml = `
